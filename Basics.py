@@ -35,9 +35,33 @@ for i in range(5):
 
 #Perform Calculations
 
-total = price + tax
+# total = price + tax
 
 #Python Syntax
+#Rules for indentation, naming conventions, and structure of statements
+
+#Indentation rules
+def greet_user(username):
+    print(f"Hello, {username}!")  # Indented block inside the function. 4 spaces not tabs.
+
+#Python style guide PEP8
+#Use 4 spaces per indentation level, not tabs.
+#Naming Convention - Use lowercase with underscores for variable and function names
+#Limit lines to 79 characters for better readability
+#Use blank lines to separate functions and classes for better organization
+#Use comments to explain complex code or logic
+#Use docstrings to describe the purpose of functions and classes
+#Where to add spaces around operators and after commas for better readability
 
 
 
+#How to read error messages
+"""Python errors have three parts:
+Where it happened: File "hello.py", line 1
+What went wrong: SyntaxError: unterminated string literal
+The arrow: Points to the exact spot where the error occurred"""
+#SyntaxError: Indicates a mistake in the code structure
+#Example of a syntax error
+#print("Hello, World!) # Missing closing quotation mark
+
+print("Hello, World!") 
