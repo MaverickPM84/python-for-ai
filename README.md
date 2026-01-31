@@ -36,3 +36,23 @@ Day 2 - 30 Jan 2026
 7. commit + sync on VS code means - commit + pull (if needed) + push
 
 Lifeycle = Code Changes -> add -> commit + meaningful msg -> push
+
+
+Day 3 - 31st Jan 2026
+
+- Learned Variables:
+1. Variables store information/value.
+2. We can reference the variables later in the code
+3. Variables are like containers/buckets, you can keep 1 value in it at a time.
+4. Values can be changed with a different value later.
+5. Variables will hold the latest value assigned to them or stored in them.
+6. You can store, numbers, string, boolean values in a variable.
+
+- Variable Naming convention - best use snake_case as per PEP8 rules.
+  1. Cannot start the variable names with numbers.
+  2. Cannot use hyphens in the names. Can use underscores.
+  3. Cannot use reserved words like print, if, else, python....
+ 
+- Comments - Comments should explain the WHY not the WHAT
+     
+
