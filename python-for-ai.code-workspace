@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"jupyter.interactiveWindow.textEditor.executeSelection": true
+		"jupyter.interactiveWindow.textEditor.executeSelection": true,
+		"git.scanRepositories": [
+			"https://github.com/MaverickPM84/python-for-ai.git"
+		]
 	}
 }
