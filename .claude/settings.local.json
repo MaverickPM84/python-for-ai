@@ -6,7 +6,9 @@
       "Bash(dir:*)",
       "Bash(git add:*)",
       "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd README with project description\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git remote set-url:*)"
+      "Bash(git remote set-url:*)",
+      "Bash(gh:*)",
+      "Bash(git -C \"c:\\\\Users\\\\preet\\\\OneDrive\\\\Documents\\\\Python for AI\\\\PythonProjects\\\\python-for-ai\" remote -v)"
     ]
   }
 }
