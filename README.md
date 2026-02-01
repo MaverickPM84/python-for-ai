@@ -55,4 +55,13 @@ Day 3 - 31st Jan 2026
  
 - Comments - Comments should explain the WHY not the WHAT
      
+Day 4 - Learnings
 
+Datatypes:
+1. Numbers - Integers, Float
+2. Number Operations - Addition, Subtraction, Division, Multiplication, Power, PEMBDAS rule applies
+3. String - fancy name for Text
+4. String Manipulation - Concatenation using '+'
+5. len(text) - starts with 0, as a Python is a 0 index language that means everything starts with 0
+   len[0] = 'P' in 'Preetam'
+   len[4] - 't' in 'Preetam'
