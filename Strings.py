@@ -95,3 +95,65 @@ print(message.count("Python"))  # Output: 2
 
 new_message = message.replace("Python", "Javascript")
 print(new_message)  # Output:  I love Javascript programming with Javascript
+
+
+#for loop to iterate through each character in a string
+
+text = "AI is the future"
+for char in text:
+    print(char)
+
+# for loop exampples
+
+fruits = "apple,banana,cherry"
+fruit_list = fruits.split(",")
+for fruit in fruit_list:
+    print(fruit)
+
+# another example for loop
+
+sentence = "Data Science is amazing"
+words = sentence.split(" ")
+for word in words:
+    print(word)
+
+# while loop to iterate through each character in a string
+
+message = "Hello, AI!"
+index = 0
+while index < len(message):
+    print(message[index])
+    index += 1
+
+# while loop example
+
+text = "Machine Learning"
+index = 0
+while index < len(text):
+    print(text[index])
+    index += 1
+
+# Tips to remember for for loops and while loops
+
+# Use for loops when you know the number of iterations or when iterating over a collection.
+# Use while loops when the number of iterations is uncertain and depends on a condition.
+# Ensure that the loop condition in while loops will eventually become false to avoid infinite loops.
+
+# Use descriptive variable names for loop counters and iterators to enhance code readability.
+# Use break and continue statements judiciously to control loop execution flow.
+# Always test loops with different input scenarios to ensure they behave as expected.
+# Use enumerate() in for loops when you need both the index and the value from a collection. 
+# For example:  for index, value in enumerate(collection):      
+# This provides a cleaner and more Pythonic way to access both the index and the value.
+
+#Mental Models for - for loops and while loops
+# For Loops: Think of a for loop as a conveyor belt in a factory. 
+# Each item (element) on the belt is processed one by one in a systematic manner.
+# You know exactly how many items are on the belt, and you process each item until you reach the end.
+
+# While Loops: Imagine a while loop as a game where you keep playing until you reach a certain score.
+# You don't know how many rounds it will take to reach that score, so you keep playing as long as your current score is below the target.
+# The loop continues until the condition (current score < target score) is no longer true.
+
+#Common mistakes to avoid
+# Infinite Loops: Ensure that the condition in while loops will eventually become false.
